@@ -20,4 +20,9 @@ public class PimTest extends LocalClass {
 		//String Titlepim=pimpage.TitleOfPimPage();
 		Assert.assertEquals(false, false);
 }
+	@Test(priority=5)
+	public void verify55() {
+		//String Titlepim=pimpage.TitleOfPimPage();
+		Assert.assertEquals(true, true);
+}
 }
